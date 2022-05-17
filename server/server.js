@@ -31,8 +31,6 @@ if(process.env.NODE_ENV === 'production'){
 
 // app configuration
 const app = express();
-// const port = process.env.PORT || 5000;
-// const connection_url = 'mongodb+srv://admin:sVrpkHTK7rq2H6p5@cluster0.jtn9y.mongodb.net/weddingslk-db?retryWrites=true&w=majority';
 
 // API endpoint
 app.get('/', (req, res) => res.status(200).send("Success, you are in WeddingsLK"));
